@@ -68,4 +68,4 @@ let text;
 
 
 
-// console.log(text);
+// github.com/emremustu
