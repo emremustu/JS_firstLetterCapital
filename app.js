@@ -40,7 +40,13 @@ let text;
     let result = capitalizedWords.join(' '); // Combine the words
     text = result; // updating the text into result
 
-    console.log(text); // You can add this text to the html by DOM 
+    console.log(text); // i also added the text in html below
+    let resulttextinHTML =  document.createElement("p");
+    let node = document.createTextNode(text);
+    resulttextinHTML.appendChild(node);
+    document.body.appendChild(resulttextinHTML);
+
+    
     }
     
 }
